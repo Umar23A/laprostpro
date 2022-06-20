@@ -288,7 +288,8 @@
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
     overflow: hidden;
-    margin: 10px;
+    margin-right: 10px;
+    margin-left:20px;
     min-width: 220px;
     max-width: 310px;
     width: 100%;
