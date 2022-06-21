@@ -15,6 +15,16 @@
     background-size: cover;
 }
 
+.conn{
+  background-color: darkkhaki;
+  background-image: url('../img/doctor.jpeg');
+  background-size: cover;
+ 
+}
+
+.frmm{
+  border-radius: 20px;
+}
 #app{
     font-size: 45px;
     color: rgb(172, 162, 24);
