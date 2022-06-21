@@ -282,95 +282,96 @@
     padding: 0;
   }
 
-  /* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css); */
-  /* @import url(https://fonts.googleapis.com/css?family=Raleway:400,800); */
-  figure.snip1157 {
-    font-family: 'Raleway', Arial, sans-serif;
-    position: relative;
-    overflow: hidden;
-    margin-left: 20px;
-    
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: left;
-    box-shadow: none !important;
-   text-align: justify;
-  }
   
-  figure.snip1157 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-  }
-  figure.snip1157 img {
-    max-width: 100%;
-    vertical-align: middle;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    margin: 40px 0 0 10px;
-  }
-  figure.snip1157 blockquote {
-    display: block;
-    border-radius: 8px;
+  
+  /* Testimonial */
+
+ 
+  .testimonial {
+    border-right: 4px solid #2a3d7d;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px 30px 130px;
+    margin: 0 15px 30px 15px;
+    overflow: hidden;
     position: relative;
-    background-color: bisque;
-    padding: 25px 50px 30px 50px;
-    font-size: 0.8em;
-    font-weight: 500;
-    margin: 0;
-    line-height: 1.6em;
-    font-style: italic;
   }
-  figure.snip1157 blockquote:before,
-  figure.snip1157 blockquote:after {
-    font-family: 'FontAwesome';
-    content: "\201C";
+  .testimonial:before {
+    content: "";
     position: absolute;
-    font-size: 50px;
-    opacity: 0.3;
-    font-style: normal;
+    bottom: -4px;
+    left: -17px;
+    border-top: 25px solid bisque;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(45deg);
   }
-  figure.snip1157 blockquote:before {
-    top: 25px;
+  .testimonial:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -17px;
+    border-top: 25px solid bisque;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    transform: rotate(135deg);
+  }
+  .testimonial .pic {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
     left: 20px;
   }
-  figure.snip1157 blockquote:after {
-    content: "\201D";
-    right: 20px;
-    bottom: 0;
+  .testimonial .pic img {
+    width: 100%;
+    height: auto;
   }
-  figure.snip1157 .arrow {
-    top: 100%;
-    width: 0;
-    height: 0;
-    border-left: 0 solid transparent;
-    border-right: 25px solid transparent;
-    border-top: 25px solid bisque;
-    margin: 0;
-    position: absolute;
+  .testimonial .description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6f6f;
+    line-height: 25px;
+    margin-bottom: 15px;
   }
-  figure.snip1157 .author {
-    position: absolute;
-    bottom: 45px;
-    padding: 0 10px 0 120px;
-    margin: 0;
+  .testimonial .title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #000000;
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%);
-  }
-  figure.snip1157 .author h5 {
-    opacity: 0.8;
+    letter-spacing: 1px;
+    color: #29d18b;
     margin: 0;
-    font-weight: 800;
   }
-  figure.snip1157 .author h5 span {
-    font-weight: 400;
-    text-transform: none;
-    padding-left: 5px;
+  .testimonial .post {
+    display: inline-block;
+    font-size: 17px;
+    color: #29d18b;
+    font-style: italic;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    border: 2px solid #2a3d7d;
+    background: #fff !important;
+    border-radius: 0 !important;
+    opacity: 1;
+  }
+  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls .owl-page:hover span {
+    background: #29d18b !important;
+    border-color: #29d18b;
+  }
+  @media only screen and (max-width: 767px) {
+    .testimonial {
+      padding: 20px;
+      text-align: center;
+    }
+    .testimonial .pic {
+      display: block;
+      position: static;
+      margin: 0 auto 15px;
+    }
   }
   
   
-  /* Demo purposes only */
