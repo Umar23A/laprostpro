@@ -244,6 +244,47 @@
     </div>
 </section>
 
+<div class="container-fluid shadow border-3 con ps-4 pe-4 pt-4 pb-4">
+
+  <div id="zakaz" class="row">
+      <div class="col-lg-5">
+
+      </div>
+
+      <div class="col-lg-6 pb-4" style="margin-top:30px ;">
+          <div class="frm offset-lg-3 text-center p-2" style="background: rgb(229, 223, 223); opacity:0.9;">
+              <h3 class="p-3 te fw-bold">Ўзингизга бўлган ишончни қайтаринг!!!</h3>
+              <img width="200" src="assets/img/laprost.png">
+              <form action="" onsubmit=" return sendtelegram()">
+                  <h4 class="text-center fw-bold" style="color: #ed150e;">Буюртма бериш орқали 
+                      чегирмага улгуриб қолинг!!!</h4>
+                  <div class="mb-3">
+                      <div style="color: #c0bd0f;" id="app"></div>
+                      <select class="form-select" id="selectCountry" name="country">
+                          <option id="country" name="country" value="">Вилоятни танланг</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                      <label class="form-label">Исм, Фамилия</label>
+                      <input name="name" id="name" type="text" placeholder="" required class="form-control name"/>
+                  </div>
+                  <div class="mb-3">
+                      <label class="label">Телефон рақам</label>
+                      <input class="form-control number" type="tel" id="number" required/>
+                  </div>
+
+                  <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" id="btn">Буюртма бериш</button>
+                  <div class="text-center pt-2 g fw-bold textx mt-3 pb-2 mb-2"><h4 class="text-center pt-2 fw-bold textx">100 % анонимлик!</h4> Мижозларга махсулот махсус 
+                      ўралган қадоқларда ошкор қилинмаган ҳолда етказиб берилади!</div>
+              </form>
+
+
+          </div>
+      </div>
+  </div>
+</div>
+
+
 <div class="testimonal pt-5 shadow-lg" id="comments">
 <div class="container">
     <h1 class="text-center pt-3 pb-5 border-top border-3 fw-bold">Мамнун мижозларнинг фикрлари:</h1>
@@ -350,45 +391,7 @@
 </div>
 
 
-<div class="container-fluid shadow border-3 con ps-4 pe-4 pt-4 pb-4">
 
-    <div id="zakaz" class="row">
-        <div class="col-lg-5">
-
-        </div>
-
-        <div class="col-lg-6 pb-4" style="margin-top:30px ;">
-            <div class="frm offset-lg-3 text-center p-2" style="background: rgb(229, 223, 223); opacity:0.9;">
-                <h3 class="p-3 te fw-bold">Ўзингизга бўлган ишончни қайтаринг!!!</h3>
-                <img width="200" src="assets/img/laprost.png">
-                <form action="" onsubmit=" return sendtelegram()">
-                    <h4 class="text-center fw-bold" style="color: #ed150e;">Буюртма бериш орқали 
-                        чегирмага улгуриб қолинг!!!</h4>
-                    <div class="mb-3">
-                        <div style="color: #c0bd0f;" id="app"></div>
-                        <select class="form-select" id="selectCountry" name="country">
-                            <option id="country" name="country" value="">Вилоятни танланг</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Исм, Фамилия</label>
-                        <input name="name" id="name" type="text" placeholder="" required class="form-control name"/>
-                    </div>
-                    <div class="mb-3">
-                        <label class="label">Телефон рақам</label>
-                        <input class="form-control number" type="tel" id="number" required/>
-                    </div>
-
-                    <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit" id="btn">Буюртма бериш</button>
-                    <div class="text-center pt-2 g fw-bold textx mt-3 pb-2 mb-2"><h4 class="text-center pt-2 fw-bold textx">100 % анонимлик!</h4> Мижозларга махсулот махсус 
-                        ўралган қадоқларда ошкор қилинмаган ҳолда етказиб берилади!</div>
-                </form>
-
-
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!-- <div class=""id="savol"></div>
